@@ -1,0 +1,7 @@
+The following CSS rule is attempting to style an element with an invalid selector:
+
+```css
+.invalid-selector { color: blue; }
+```
+
+This selector is invalid because it does not match any element in the HTML structure.  A common mistake is making typos in class names or using selectors that are not supported.  Sometimes it's a selector that has been created in the past but the element has been removed from the page but the css rule remains.
